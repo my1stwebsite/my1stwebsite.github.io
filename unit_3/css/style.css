@@ -7,60 +7,53 @@
 body {
 	color: white;
     font-family: Helvetica;
+    font-size:18px;
 }
 
 header {
     padding: 20px;
     padding-bottom: 10px;
-    font-size: 18px;
     text-align: left;
     background-color: #FAA492;
 }
 
 #slogan {
-	font-size: 17px;
 	font-weight: bold;
 }
 
 #navigation {
 	text-align: right;
-	font-size: 17px;
+}
+.container {
+	background:#30A1A4;
 }
 
 .left-half {
   float: left;
-  width: 65%;
-  background-color: #30A1A4;
-  padding: 20px;
-  padding-right: 50px;
-  height: 448px;
-  line-height: 25px
+  width: 50%;
+  padding: 4em;
+  line-height: 25px;
  }
 
 .right-half {
   float: right;
-  width: 35%;
+  width: 50%;
   line-height: 0px;
 }
-
-.consultancy {
-	width: 100%;
-	align: right;
-}
-
 .contactme {
-	font-size: 18px;
 	background-color: #84BD00;
 	padding:10px;
 	border-radius: 10px;
+	margin-top: 1em;
 }
 
 ul {
 	padding-left: 40px;
 }
 
-a {
+nav a, .contactme {
 	color: white;
+	display: inline-block;
 	text-decoration: none;
 	padding:20px;
 }
@@ -73,4 +66,11 @@ footer {
 	font-family: Helvetica;
 	background-color: #B3B3B3;
 	clear: both;
+}
+.clearfix:after {
+	display:block;
+	clear:both;
+	visibility:hidden;
+	content:" " ;
+	height:0;
 }
