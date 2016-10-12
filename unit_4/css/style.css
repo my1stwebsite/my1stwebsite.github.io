@@ -1,0 +1,85 @@
+@import section(https://fonts.googleapis.com/css?family=Open+Sans|Source+Serif+Pro);
+
+
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+body {
+	color: white;
+    font-size: 18px;
+    line-height: 1.5em;
+}
+
+header {
+    padding: 20px;
+    padding-bottom: 10px;
+    text-align: left;
+    background-color: #FAA492;
+    font-family: 'Montserrat', Arial, sans-serif;
+}
+
+section {
+	font-family: 'Source Serif Pro', serif;
+}
+
+#slogan {
+	font-weight: bold;
+}
+
+#navigation {
+	text-align: right;
+	font-family: palatino, georgia, sans-serif;
+}
+.container {
+	background:#30A1A4;
+}
+
+.left-half {
+  float: left;
+  width: 50%;
+  padding: 4em;
+  line-height: 25px;
+ }
+
+.right-half {
+  float: right;
+  width: 50%;
+  line-height: 0px;
+}
+.contactme {
+	background-color: #84BD00;
+	padding:10px;
+	border-radius: 10px;
+	margin-top: 1em;
+}
+
+ul {
+	padding-left: 40px;
+}
+
+nav a, .contactme {
+	color: white;
+	display: inline-block;
+	text-decoration: none;
+	padding:20px;
+}
+
+footer {
+	color: white;
+	font-size: 14px;
+	padding: 15px;
+	text-align: center;
+	font-family: Helvetica;
+	background-color: #B3B3B3;
+	clear: both;
+}
+.clearfix:after {
+	display:block;
+	clear:both;
+	visibility:hidden;
+	content:" " ;
+	height:0;
+}
