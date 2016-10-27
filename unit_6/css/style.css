@@ -31,7 +31,7 @@ footer{
 section{
 	background-color: #E89C6C;
 	border: 1px black solid;
-    padding: 20px;
+	padding: 20px;
 }
 
 div{
@@ -79,4 +79,15 @@ hr{
     content: " ";
     clear: both;
     height: 0;
+}
+.skills {
+    width: 33.33%;
+    float: left;
+    text-align: center;
+    padding: 3em;
+}
+
+section#expert {
+    width: 1200px;
+    margin: auto;
 }
